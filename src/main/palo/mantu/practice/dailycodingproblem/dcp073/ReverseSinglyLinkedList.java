@@ -21,4 +21,4 @@ public class ReverseSinglyLinkedList {
         node = prev;
         return node;
     }
-}
+} 

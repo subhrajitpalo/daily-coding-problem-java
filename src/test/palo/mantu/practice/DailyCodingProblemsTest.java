@@ -40,7 +40,7 @@ import palo.mantu.practice.dailycodingproblem.dcp021.MinRoomFromTimeIntervals.Ti
 import palo.mantu.practice.dailycodingproblem.dcp022.SentenceFromWords;
 import palo.mantu.practice.dailycodingproblem.dcp023TODO.MatrixMinSteps;
 import palo.mantu.practice.dailycodingproblem.dcp024.BinaryTreeLock;
-import palo.mantu.practice.dailycodingproblem.dcp025TODO.RegexMatcher;
+import palo.mantu.practice.dailycodingproblem.dcp025.RegexMatcher;
 import palo.mantu.practice.dailycodingproblem.dcp061.IntegerExponentiation;
 import palo.mantu.practice.dailycodingproblem.dcp062.MatrixTopLeftToBottomRight;
 import palo.mantu.practice.dailycodingproblem.dcp063.MatrixWordSearch;
@@ -356,7 +356,7 @@ public class DailyCodingProblemsTest {
 
     @Test
     @DisplayName("Daily Coding Problem #25 - Regular expression matching with . and *")
-    public void TODOmatchRegex() {
+    public void matchRegex() {
         RegexMatcher o = new RegexMatcher();
 
         assertTrue(o.match("ray", "ra."));
